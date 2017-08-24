@@ -14,5 +14,6 @@
     "username": "vukajoziprop@gmail.com",
     "password": "Ntuthuk02TgVuTPTK0GOmreVAPKHiQ3a",
     "url": "https://login.salesforce.com",
-    "autoCompile": true
+    "autoCompile": true,
+    "src": "src"
 }

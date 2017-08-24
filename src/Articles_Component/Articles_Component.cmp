@@ -1,2 +1,13 @@
-<aura:component> 
-</aura:component> 
+<aura:component controller="Articles_Controller">
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    <aura:attribute name="articles" type="KnowledgeArticleVersion[]" />
+
+    <ul>
+        <aura:iteration items="{!v.articles}" var="att">
+            <li class="minli">
+                <h3>{!att.Name}</h3>
+            </li>
+        </aura:iteration>
+    </ul>
+
+</aura:component>
